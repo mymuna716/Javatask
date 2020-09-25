@@ -1,0 +1,12 @@
+
+public class Squeez {
+
+	public static void main(String[] args) {
+		
+		String name="hello the   world is    large";
+        String squeez= name.replaceAll("\\s+", " ");
+         System.out.println(name);
+         System.out.println(squeez);
+	}
+
+}
